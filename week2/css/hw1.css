@@ -1,0 +1,108 @@
+
+body{
+	background:#ffffff;
+	margin: 2%;
+	padding:5px;
+
+}
+
+header{
+	background: #ffffff;
+	background-image: url(https://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100px;
+	padding-top: 10px;
+  font-variant: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h1{
+	color: #ffffff;
+	font-size: 100%;
+
+}
+
+nav a{
+		background: rgba(255, 255, 255, .2);
+		border: 1px solid #ffffff00;
+		border-radius: 15px;
+		float: left;
+	  display: block;
+	  color: black;
+	  text-align: center;
+	  padding: 10px 16px;
+		margin-right: 2%;
+		margin-left: 5%;
+		width: 12%;
+	  text-decoration: none;
+	  font-size: small;
+		font-weight: bold;
+		text-transform: capitalize;
+}
+a:hover{
+	background: #FFFFFF;
+	color: #0006CC;
+	border-radius: 15px;
+}
+a:active{
+  border: 3px solid #000000;
+}
+
+.active{
+	background: rgba(255, 255, 255, .6);
+	color: #0000FF;
+	text-transform: uppercase;
+}
+
+
+.left{
+	width: 23%;
+	height: 100vh;
+	padding: 20px;
+	display: inline-block;
+	float: left;
+	background: linear-gradient(to left, #ff0000 50%, #0000ff 50%);
+	overflow: auto;
+
+}
+
+.right{
+	display: inline-block;
+	width: 70%;
+	height: 100vh;
+	float: left;
+	overflow: auto;
+}
+
+h2{
+	color: #02007A;
+  font-family: "Times New Roman",serif;
+  text-transform:capitalize;
+  font-size: 115%;
+}
+
+
+img{
+
+	display: block;
+	width: 90%;
+	border: solid 2px #000000;
+	margin: 0 auto;
+	margin-top: 12%;
+	margin-bottom: 12%;
+
+
+}
+
+p{
+
+  font-family: Arial,serif;
+  font-weight: bold;
+}
+table {
+	font-family: "Times New Roman",serif;
+	font-weight: bold;
+
+}
